@@ -1,0 +1,73 @@
+/* Estilização do header */
+* {
+    font-family: "Playwrite DK Uloopet Guides", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do header */
+.cabecalho {
+    background-color: #5f2568;
+    /* Cor de fundo */
+    color: #ffffff;
+    padding: 1.5rem;
+    /* Poderia ser 24px */
+    /* alinhamento de itens */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    /* Header Fixo */
+    position: sticky;
+    /* Posicionamento do header para sobrepor os outros elementos  */
+    left: 0;
+    top: 0;
+    z-index: 999;
+    /* Eixo z - profundidade do elmento */
+}
+
+/* Logo do header */
+.div-logo img {
+    width: 35%;
+    /* Usando  o % para diminuir seu tamanho */
+}
+
+/* Estilização do botão header */
+.div-button a button {
+    width: 5rem;
+    /* Poderia ser 80 px */
+    padding: 0.5rem;
+    /* 8px - preenchimento */
+    background-color: #b37eb5;
+
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+.section-1 {
+    padding: 9rem;
+    background-image: url(imagens/bts-foto-reproducao-tvpop--rima3jpz3w3xsht0mtex7habfjx17uekq07164eb6o.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.div01 {
+    background-color: 	#a27eac;
+    color: #5f2568;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+}
