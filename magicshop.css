@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 /* Estilização do header */
@@ -49,7 +50,7 @@
 }
 
 .section-1 {
-    padding: 9rem;
+    padding: 5rem;
     background-image: url(imagens/bts-foto-reproducao-tvpop--rima3jpz3w3xsht0mtex7habfjx17uekq07164eb6o.jpg);
     background-position: center;
     background-size: cover;
@@ -57,17 +58,124 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
 .div01 {
-    background-color: 	#a27eac;
+    background-color: #b37eb5;
     color: #5f2568;
+    font-weight: bold;
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
     width: 25%;
     height: 20rem;
     min-width: 299px;
+}
+
+.div01 p {
+    margin-top: 1rem;
+}
+
+.ul-div01 {
+    text-decoration: none;
+    background-color: #b37eb5;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.div01 li a {
+
+    text-decoration: none;
+    background-color: #5f2568;
+    color: #b37eb5;
+    padding: 4px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.div01 ul li {
+    font-weight: 480;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul-div01 li {
+    margin: 5px 5px;
+}
+
+.div02 {
+    padding: 1rem;
+    width: 25%;
+    height: 20rem;
+    min-height: 299px;
+    background: linear-gradient(180deg, rgb(172, 110, 187) 0.33%, rgb(145, 78, 165)100%), url (url(imagens/BTS.png));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fa-solid fa-bts,
+.fa-solid fa-army {
+    color: #b37eb5;
+    font-size: 1.3rem;
+}
+
+
+.img-div {
+    padding: 3%;
+    background-image: url(imagens/video_preview_0000.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #b37eb5;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    width: 25%;
+    height: 22rem;
+    background-color: #9b6c9a;
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: #d0b2d1;
+    box-shadow: 10px 10px 20px rgb(113, 56, 131);
+    cursor: pointer;
+}
+
+.caixa:hover {
+    box-shadow: 12px 12px 22px rgb(150, 83, 170);
+    transition: o.8s;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #9b6c9a;
+    flex-wrap: wrap;
+}
+
+.div03, .div3 {
+    height: 15rem;
 }
