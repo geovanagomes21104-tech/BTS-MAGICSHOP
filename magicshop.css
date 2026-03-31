@@ -115,7 +115,7 @@
     width: 25%;
     height: 20rem;
     min-width: 299px;
-    background: linear-gradient(180deg, rgb(213, 197, 218) 0.33%, rgb(145, 78, 165)100%), url(imagens/BTS.png);
+    background: linear-gradient(180deg, rgb(136, 56, 190) 0.33%, rgb(145, 78, 165)100%), url(imagens/BTS.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,6 +124,11 @@
     justify-content: center;
     flex-direction: column;
     gap: 15px;
+}
+
+.div02 img {
+    width: 110%;
+    height: 130%;
 }
 
 .fa-solid fa-bts,
@@ -140,7 +145,8 @@
     background-size: cover;
 }
 
-.section-2, .section-4 {
+.section-2,
+.section-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,17 +209,19 @@
 }
 
 .button-div3 a button {
-padding: 0.5rem;
-background-color: #9b6c9a;
-color: #5f2568;
-font-weight: 600;
-margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #9b6c9a;
+    color: #5f2568;
+    font-weight: 600;
+    margin: 1rem 0;
 }
 
-.div-sec3, .div03 {
+.div-sec3,
+.div03 {
     text-align: center;
     padding: 1rem;
 }
+
 .text-div03 p {
     color: #5f2568;
 }
@@ -224,10 +232,10 @@ margin: 1rem 0;
 }
 
 .rodape {
-background-color: #9b6c9a;
-padding: 2rem;
-text-align: center;
-font-size: 1.1rem;
+    background-color: #9b6c9a;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 .content {
@@ -243,22 +251,22 @@ font-size: 1.1rem;
 }
 
 .social-media i {
-    color: #b37eb5;
+    color: #703681;
     font-size: 2rem;
-    margin: 0,5rem;
+    margin: 0, 5rem;
 }
 
 .line {
     width: 60%;
     margin: 0.5rem auto;
-    background-color: #bc7ebe;
+    background-color: #5d2f6b;
     border: none;
     height: 2px;
 }
 
 .div-list ul li a {
-color: #d0b2d1;
-text-decoration: none;
+    color: #d0b2d1;
+    text-decoration: none;
 }
 
 .div-list ul li {
@@ -270,8 +278,50 @@ text-decoration: none;
     transition: 0.8s;
 }
 
-@media ( max-width: 600px) {
+@media (max-width: 600px) {
     .content {
         flex-direction: column;
     }
 }
+
+.caixa img {
+    width: 100%;
+    height: 35%;
+}
+
+.caixa p {
+    margin: 0.5rem 1rem;
+    color: #5f2568;
+}
+
+.caixa h3 {
+    color: #e2b3e4;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.caixa button {
+    padding: 0.5rem;
+    background-color: #9b6c9a;
+    color: #5f2568;
+    font-weight: 500;
+    margin: 1rem 0;
+
+}
+
+.whatsapp img { /* alterando tamanho do icon whatsapp */
+    width: 50px; /* largura do icon */
+}
+
+.whatsapp img:hover {
+    width: 60px;
+    transition: 0.8s;
+}
+
+.whatsapp { /* div guarda o icon whatsapp */
+    position: fixed; /* posicionamento fixo */
+    right: 25px; /* posicionamento à direita (25px)*/
+    bottom: 25px; /* posicionamento à 25px do bottom */
+}
+
+
