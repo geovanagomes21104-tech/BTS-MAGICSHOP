@@ -107,15 +107,15 @@
 }
 
 .ul-div01 li {
-    margin: 5px 5px;
+    margin: 15px 5px;
 }
 
 .div02 {
     padding: 1rem;
     width: 25%;
     height: 20rem;
-    min-height: 299px;
-    background: linear-gradient(180deg, rgb(172, 110, 187) 0.33%, rgb(145, 78, 165)100%), url (url(imagens/BTS.png));
+    min-width: 299px;
+    background: linear-gradient(180deg, rgb(213, 197, 218) 0.33%, rgb(145, 78, 165)100%), url(imagens/BTS.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -140,7 +140,7 @@
     background-size: cover;
 }
 
-.section-2 {
+.section-2, .section-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,9 +176,102 @@
     flex-wrap: wrap;
 }
 
-.div03, .div3 {
-    height: 15rem;
-    padding: 1rem;
-    text-align: center;
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5rem;
+    background-color: #9b6c9a;
+    flex-wrap: wrap;
 }
 
+.content-text {
+    text-align: start;
+    margin: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.icon-div03 {
+    color: rgb(134, 11, 172);
+    font-size: 3rem;
+    margin-top: 1.2rem;
+}
+
+.button-div3 a button {
+padding: 0.5rem;
+background-color: #9b6c9a;
+color: #5f2568;
+font-weight: 600;
+margin: 1rem 0;
+}
+
+.div-sec3, .div03 {
+    text-align: center;
+    padding: 1rem;
+}
+.text-div03 p {
+    color: #5f2568;
+}
+
+.batata {
+    background-color: #9b6c9a;
+    color: #5f2568;
+}
+
+.rodape {
+background-color: #9b6c9a;
+padding: 2rem;
+text-align: center;
+font-size: 1.1rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    padding: 1.5rem;
+}
+
+.social-media i {
+    color: #b37eb5;
+    font-size: 2rem;
+    margin: 0,5rem;
+}
+
+.line {
+    width: 60%;
+    margin: 0.5rem auto;
+    background-color: #bc7ebe;
+    border: none;
+    height: 2px;
+}
+
+.div-list ul li a {
+color: #d0b2d1;
+text-decoration: none;
+}
+
+.div-list ul li {
+    margin-bottom: 0.7rem;
+}
+
+.div-list ul li a:hover {
+    color: #9b6c9a;
+    transition: 0.8s;
+}
+
+@media ( max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+}
